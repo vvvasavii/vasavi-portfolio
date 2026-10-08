@@ -1,5 +1,6 @@
 import React from 'react';
 import { Linkedin, Instagram, Github, Mail } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import CursorGlow from './components/CursorGlow';
 import BackgroundEffects from './components/BackgroundEffects';
@@ -49,6 +50,7 @@ const App: React.FC = () => {
           </a>
         </aside>
       </div>
+      <Analytics />
     </div>
   );
 }
